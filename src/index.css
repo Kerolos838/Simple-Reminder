@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  margin: 0 !important;
+}
+body{
+  max-height: 100vh !important;
+  background-color: #e7eff7 !important;
+
+}
+.white-box{
+  height: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow:  0 0 10px 0px #b1cfed;
+  overflow: auto;
+}
+.white-box .remin{
+  transition: 0.3s;
+  cursor: pointer;
+}
+.white-box .remin:hover{
+  background-color: #eee;
+  border-radius: 8px;
+}
+.white-box .images{
+  width: 60px;
+  border-radius: 50%;
+}
+
